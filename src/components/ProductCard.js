@@ -11,7 +11,7 @@ function ProductCard() {
         src="https://phinf.pstatic.net/dbscthumb/3329_000_9/20170315200826092_ZYKBVY02G.jpg/9750605_i1.jpg?type=m2000_2000_fst"
       ></img>
       <div className="price_painter">
-        <div>리셀특약가</div>
+        <div>가격</div>
         <div className="작가명">작가명</div>
       </div>
       <Button className="container__detail-btn" variant="outline-primary">

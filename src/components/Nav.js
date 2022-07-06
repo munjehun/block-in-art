@@ -1,16 +1,23 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
+import "./Nav.css";
+import { Link, useNavigate } from "react-router-dom";
 
 function Nav() {
+  const navigate = useNavigate();
+
   return (
-    <div>
-      <div className="login_button">
-        <FontAwesomeIcon icon={faCircleUser} />
-        <div>로그인</div>
+    <div className="nav">
+      <div className="nav_link">
+        <Link to="login">
+          <div>로그인</div>
+        </Link>
+        <Link to="signupChoice">
+          <div>회원 가입</div>
+        </Link>
       </div>
-      <div className="logo">
+      <div className="nav_logo">
         <img
+          onClick={() => navigate("/")}
           width={200}
           src="https://www.blockart.institute/wp-content/uploads/2018/10/blockart-logo.png"
         />
