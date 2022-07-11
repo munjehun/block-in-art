@@ -40,7 +40,7 @@
 }
 
 .register_button button {
-  width: 120px;
+  width: 150px;
   height: 40px;
   border: none;
   background-color: rgb(47, 172, 23);
@@ -51,7 +51,7 @@
 }
 
 .work_about button {
-  width: 120px;
+  width: 150px;
   height: 40px;
   border: none;
   background-color: rgb(47, 172, 23);

@@ -1,6 +1,6 @@
 .main .작가님이신가요 {
-  text-align: center;
-  /* border: 1px solid violet; */
+  margin-right: 50px;
+  font-size: 20px;
 }
 
 .main .container__detail-container {
@@ -45,7 +45,14 @@
   width: 100%;
 }
 
-.main .wellcome_ment > div {
-  display: inline-block;
-  width: 50%;
+.main .wellcome_ment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main .wellcome_ment > div > button > a {
+  color: white;
+  text-decoration: none;
 }

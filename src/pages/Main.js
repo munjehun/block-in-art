@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import "./Main.css";
 
@@ -11,7 +12,9 @@ function Main() {
           작가님이신가요? 빠르게 작품을 등록하고 판매계약까지 맺어보세요!
         </div>
         <div>
-          <Button>작품 등록하기</Button>
+          <Button>
+            <Link to="workregister">작품 등록하기 </Link>
+          </Button>
         </div>
       </div>
 

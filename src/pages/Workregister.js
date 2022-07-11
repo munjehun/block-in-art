@@ -10,7 +10,7 @@ function Workregister() {
       <div className="work_about">
         <ul>
           <li>
-            작품명 : <input type="text" placeholder=" " />
+            작품명 : <input type="text" placeholder="작품명을 입력하세요" />
           </li>
           <li>
             작품크기 : <input type="text" placeholder=" " />
@@ -29,17 +29,18 @@ function Workregister() {
             </form>
           </li>
           <li>
-            작품 사진&emsp;&emsp; <button>사진 불러오기 </button>
+            작품 사진&emsp;&emsp; <input type="file" accept="image/*" />
           </li>
           <li>
-            작품 설명 : <input type="text" placeholder=" " />
+            작품 설명 : <input type="textarea" placeholder=" " />
+            {/* textarea로 변경하고 스타일 지정하기 */}
           </li>
         </ul>
       </div>
       <div className="hope_price">
         희망 판매 금액
         <div className="hope_price_input">
-          <input type="text" placeholder="" />
+          <input type="number" placeholder="" />
           &emsp;원
         </div>
         <div className="register_button">

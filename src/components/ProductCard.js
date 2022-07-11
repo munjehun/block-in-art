@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function ProductCard() {
   return (
@@ -14,9 +15,11 @@ function ProductCard() {
         <div>가격</div>
         <div className="작가명">작가명</div>
       </div>
-      <Button className="container__detail-btn" variant="outline-primary">
-        자세히 보기
-      </Button>
+      <Link to="detailPainter">
+        <Button className="container__detail-btn" variant="outline-primary">
+          자세히 보기
+        </Button>
+      </Link>
     </div>
   );
 }
