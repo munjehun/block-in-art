@@ -14,7 +14,7 @@ import Mypage2 from "./pages/Mypage2";
 import DetailPainter from "./pages/DetailPainter";
 import DetailUser from "./pages/DetailUser";
 import DetailUserAfterContract from "./pages/DetailUserAfterContract";
-//
+
 function App() {
   return (
     <>
