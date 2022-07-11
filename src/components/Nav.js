@@ -6,7 +6,7 @@ function Nav() {
   const navigate = useNavigate();
 
   return (
-    <div className="nav">
+    <div>
       <div className="nav_link">
         <Link to="login">
           <div>로그인</div>
