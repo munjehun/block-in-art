@@ -14,6 +14,8 @@ function Main() {
         <div>
           <Button>
             <Link to="workregister">작품 등록하기 </Link>
+            {/* 로그인 안돼있으면 로그인페이지로 이동
+                로그인 돼있으면 작품등록페이지로 이동 */}
           </Button>
         </div>
       </div>

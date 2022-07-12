@@ -7,13 +7,17 @@ function SignupUser() {
       <div className="form_container">
         <div className="title">Signup</div>
         <div className="inputs">
-          <input
-            type="id"
-            // value={Username}
-            // onChange={onUsernameHandler}
-            placeholder="ID"
-            // onKeyPress={onKeyPress}
-          />
+          <div>
+            <input
+              type="id"
+              // value={Username}
+              // onChange={onUsernameHandler}
+              placeholder="ID"
+              // onKeyPress={onKeyPress}
+            />
+            <button>중복체크</button>
+          </div>
+
           <input
             type="password"
             // value={Password}
